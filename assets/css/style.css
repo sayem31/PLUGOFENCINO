@@ -1,0 +1,482 @@
+/* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  overflow: hidden;
+  background: #EFF700;
+  color: #273E44;
+}
+html{
+  overflow-x: hidden;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+input, button, textarea, select{
+  outline: none;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+h1 {
+  color: #273E44;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+}
+h2 {
+  font-size: 55px;
+  font-weight: 900;
+}
+h3{
+  color: #FFF;
+  font-weight: 800;
+  font-size: 70px;
+}
+h4{
+  font-weight: 800;
+  font-size: 22px;
+}
+h5{
+  color: #EFF700;
+  font-size: 26px;
+  font-weight: 600;
+}
+p {
+  font-weight: 600;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*==================== header_main_area css 
+=========================================================*/
+.header_logo_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+.logo a {
+  max-width: 140px;
+  width: 100%;
+  display: inline-block;
+}
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu ul li a {
+  color: #273E44;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 45px;
+  display: inline-block;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.menu ul li a:hover {
+  color: #972525;
+}
+.btn_style_1 {
+  display: inline-block;
+  padding: 10px 38px;
+  color: #EFF700 !important;
+  font-weight: 700 !important;
+  background: #273E44;
+  font-size: 24px !important;
+  border-radius: 50px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+.header_main_area {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+/*--------------- Start Humber Icon Design Css
+----------------------------------------------------------*/
+.mobile-menu-icon {
+  display: none;
+}
+.all-p-humber {
+  width: 30px;
+  height: 18px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 99;
+}
+.all-p-humber span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: #273E44;
+  border-radius: 0;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+.all-p-humber span:nth-child(1) {
+  top: 0px;
+}
+.all-p-humber span:nth-child(2), 
+.all-p-humber span:nth-child(3) {
+  top: 8px;
+}
+.all-p-humber span:nth-child(4) {
+  top: 16px;
+}
+.all-p-humber.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.all-p-humber.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.all-p-humber.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.all-p-humber.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+/*------------End Humber Icon Design Css
+----------------------------------------------------*/
+
+/*=================== Start banner area css
+ ====================================================*/
+.banner_main_area {
+  margin-top: 235px;
+  padding-bottom: 120px;
+}
+.banner_content_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.right_banner_content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+.left_banner_content {
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%;
+}
+.banner_left_txt p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 25px;
+}
+.banner_left_txt {
+  max-width: 780px;
+  width: 100%;
+  margin: auto;
+}
+/*===================Start features area css ===================*/
+.features_main_area {
+  margin-top: 160px;
+  padding-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+.features_main_area:after {
+  content: "";
+  position: absolute;
+  width: 985px;
+  height: 1840px;
+  background: url(../images/path_1.png) no-repeat scroll 0 0 / cover;
+  left: 50%;
+  top: -59px;
+  background-size: 985px 1840px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+.section_heading{
+  text-align: center;
+}
+.section_heading a {
+  max-width: 100px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.features_content_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 145px;
+}
+.single_features_content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+}
+.features_items img {
+  max-width: 45px;
+  width: 100%;
+  margin: auto;
+}
+.features_items {
+  text-align: center;
+  max-width: 370px;
+  width: 100%;
+}
+.features_items h4 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.features_items p span {
+  display: block;
+}
+.single_features_content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  margin-bottom: 95px;
+}
+/*======================Testimonials main area css===========================*/
+.testimonias_main_area .section_heading a {
+  max-width: 65px;
+}
+.testimonias_main_area{
+  position: relative;
+  z-index: 1;
+}
+.left_testi_single a {
+  display: inline-block;
+  max-width: 45px;
+  width: 100%;
+}
+.testi_single_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #273E44;
+  max-width: 520px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px 50px 20px 15px;
+  border-radius: 30px;
+  box-shadow: 0 7px 6px rgba(0,0,0,0.5);
+}
+.right_testi_single p {
+  color: #FFF;
+  line-height: 1.2;
+  max-width: 385px;
+  width: 100%;
+  margin-top: 10px;
+}
+.left_testi_single {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 13%;
+          flex: 0 0 13%;
+}
+.testi_content_items {
+  margin-top: 100px;
+  position: relative;
+  z-index: 1 ;
+}
+.testi_content_items:after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 330px;
+  background: url(../images/testi_side.png) no-repeat scroll 0 0 / cover;
+  background-size: 350px 330px;
+  left: -100px;
+  top: 90px;
+  z-index: -1;
+}
+.testi_content_items:before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 330px;
+  background: url(../images/testi_side.png) no-repeat scroll 0 0 / cover;
+  background-size: 350px 330px;
+  right: -100px;
+  top: 345px;
+  z-index: -1;
+}
+
+/*===================pricing_main_area css========================*/
+.pricing_main_area {
+  margin-top: 110px;
+  margin-bottom: 130px;
+}
+.pricing_main_area .section_heading a {
+  max-width: 75px;
+}
+.pricing_box_area {
+  margin-top: 50px;
+}
+.single_pricing_box {
+  background: #273E44;
+  padding: 50px;
+  max-width: 430px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0 10px 6px rgba(0,0,0,0.5);
+}
+.single_pricing_box h2 {
+  color: #FFF;
+}
+.single_pricing_box h3 {
+  margin: 40px 0 35px;
+}
+.single_pricing_box p {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 35px;
+  display: inline-block;
+}
+.single_pricing_box a {
+  font-size: 26px;
+  color: #273E44;
+  background: #EFF700;
+  font-weight: 900;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 7px 50px;
+  border: 1px solid #EFF700;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.63);
+}
+/*===================footer_main_area css========================*/
+.footer_content_area a img {
+  max-width: 185px;
+  width: 100%;
+  margin: auto;
+}
+.footer_content_area {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.copy_right a {
+  color: #273E44;
+  font-weight: 600;
+  margin-top: 80px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.copy_right a i {
+  font-size: 28px;
+  margin-right: 10px;
+}
+.copy_right p {
+  font-weight: 600;
+  font-size: 20px;
+  margin-s: ;
+  margin-bottom: 16px;
+}
+.footer_content_area > p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer_content_area p span{
+  color: #E81224;
+}
+

@@ -1,0 +1,248 @@
+@media all and (max-width: 1199px) {
+	.menu ul li a {
+		margin-left: 30px;
+	}
+	.banner_left_txt p {
+		font-size: 22px;
+	}
+	.single_features_content {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 50%;
+		        flex: 0 0 50%;
+	}
+	.features_items {
+		margin: auto;
+	}
+	.testi_content_items:before {
+		width: 220px;
+		height: 200px;
+		background-size: 220px 200px;
+		right: -25px;
+	}
+	.testi_content_items:after{
+		width: 220px;
+		height: 200px;
+		background-size: 220px 200px;
+		left: -25px;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+@media all and (max-width: 991px) {
+	.menu ul {
+		position: absolute;
+		width: 100%;	
+		flex-direction: column;
+		text-align: center;
+		z-index: 9999;
+		top: 147px;
+		left: 0px;
+		background: #ddd;
+		padding: 25px 0 15px;
+		display: none;
+	}
+	.menu ul li a {
+		margin-left: 0;
+	}
+	.header_logo_area {
+		padding: 0 0;
+	}
+	.menu ul li a {
+		margin-bottom: 10px;
+	}
+	.mobile-menu-icon{
+		display: block;
+	}
+	.banner_content_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.right_banner_content {
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+		margin-bottom: 30px;
+	}
+	.features_content_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 110px
+	}
+	.testi_content_items:before {
+		top: initial;
+		bottom: -210px;
+	}
+	.testi_content_items:after {
+		width: 220px;
+		height: 200px;
+		background-size: 220px 200px;
+		left: -25px;
+		top: -175px;
+	}
+	.testi_content_items {
+		margin-top: 175px;
+	}
+}
+@media all and (max-width: 767px) {
+	h2 {
+		font-size: 40px;
+		font-weight: 900;
+	}
+	.section_heading a {
+		max-width: 75px;
+		margin-bottom: 15px;
+	}
+	.testimonias_main_area .section_heading a {
+		max-width: 50px;
+	}
+	.pricing_main_area .section_heading a {
+		max-width: 55px;
+	}
+	h3 {
+		font-size: 55px;
+	}
+}
+@media all and (max-width: 575px) {
+	.logo a {
+	    max-width: 115px;
+	}
+	.menu ul{
+		top: 120px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.banner_left_txt p {
+		font-size: 18px;
+	}
+	.banner_content_area {
+		width: 95%;
+		margin: auto;
+	}
+	.banner_main_area {
+		margin-top: 160px;
+	}
+	h2 {
+		font-size: 32px;
+		font-weight: 900;
+	}
+	.section_heading a {
+		max-width: 55px;
+		margin-bottom: 15px;
+	}
+	.features_items img {
+		max-width: 35px;
+	}
+	.single_features_content {
+		margin-bottom: 60px;
+	}
+	.testi_content_items {
+		width: 95%;
+		margin: auto;
+		margin-top: 180px;
+	}
+	.testi_single_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+		text-align: center;
+		padding: 25px;
+	}
+	p {
+		font-size: 17px;
+	}
+	.single_pricing_box {
+		width: 90%;
+	}
+	.single_pricing_box h2 {
+		width: 95%;
+		margin: auto;
+	}
+	h3 {
+		font-size: 50px;
+	}
+	.footer_content_area {
+		width: 95%;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	h5 {
+		font-size: 24px;
+	}
+
+}
+@media all and (max-width: 450px) {
+	.btn_style_1 {
+		padding: 10px 30px;
+		font-size: 22px !important;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	.banner_left_txt p {
+		font-size: 17px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.section_heading a {
+		max-width: 45px;
+	}
+	h4 {
+		font-weight: 800;
+		font-size: 20px;
+	}
+	.features_content_area {
+		width: 95%;
+		margin: auto;
+		margin-top: 110px;
+	}
+	.features_items p span {
+		display: initial;
+	}
+	p {
+		font-size: 16px;
+	}
+	.testi_content_items:before {
+		width: 150px;
+		height: 140px;
+		background-size: 150px 140px;
+		right: -25px;
+		bottom: -150px;
+	}
+	.testi_content_items:after {
+		width: 150px;
+		height: 140px;
+		background-size: 150px 140px;
+		left: -25px;
+		top: -140px;
+	}
+	.single_pricing_box a {
+		font-size: 20px;
+		padding: 7px 33px;
+	}
+	.single_pricing_box p {
+		font-size: 16px;
+	}
+	.features_main_area {
+		margin-top: 120px;
+	}
+}
